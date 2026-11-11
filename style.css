@@ -192,14 +192,14 @@ main {
       text-align: center;
 }
 
-.content-section {
+.content-section-one {
       background: rgb(246, 251, 255);
       padding: 6.25rem 0;
       margin: 18rem 0;
       position: relative;
 }
 
-.content-section::before {
+.content-section-one::before {
       content: "";
       position: absolute;
       top: -150px; /* hides any hairline gap */
@@ -211,7 +211,7 @@ main {
       background-size: 100% 100%;
 }
 
-.content-section::after {
+.content-section-one::after {
       content: "";
       position: absolute;
       bottom: -150px; /* hides any hairline gap */
@@ -242,4 +242,8 @@ main {
 
 .content-section-text p {
       font-weight: 500;
+}
+
+.content-section-two {
+      padding: 6.25rem 0;
 }
