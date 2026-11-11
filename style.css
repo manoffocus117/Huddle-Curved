@@ -14,7 +14,7 @@ input[type="number"]::-webkit-outer-spin-button {
       --light-red: hsl(0, 100%, 63%);
       --very-dark-cyan: hsl(192, 100%, 9%);
       --very-pale-blue: hsl(207, 100%, 98%);
-      --radius: 0.75rem;
+      --radius: 0.5rem;
       --full-radius: 10rem;
 }
 
@@ -281,9 +281,9 @@ main {
 
 .community-section {
       width: 90rem;
-      height: 80vh;
+      height: 100vh;
       margin: auto;
-      padding: 6.25rem 0 0 0;
+      padding: 7.25rem 0;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -295,4 +295,92 @@ main {
       align-items: center;
       justify-content: center;
       gap: 2rem;
+}
+
+footer {
+      background: var(--very-dark-cyan);
+      color: #ffffff;
+      position: relative;
+}
+
+footer::before {
+      content: "";
+      position: absolute;
+      top: -160px; /* hides any hairline gap */
+      left: 0;
+      width: 100%;
+      height: 165px;
+      background: url("/images/bg-footer-top-desktop.svg") no-repeat top center;
+      background-size: 100% 100%;
+}
+
+.footer-content {
+      width: 90rem;
+      margin: auto;
+      padding: 6.25rem 0;
+      display: flex;
+      justify-content: space-between;
+}
+
+.footer-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      color: #ffffff;
+}
+
+.footer-left {
+      width: 25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+}
+
+.footer-left p {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+}
+
+.social {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-left: -0.5rem;
+}
+
+.social i {
+      font-size: 2rem;
+}
+
+.footer-right {
+      width: 26rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      gap: 2rem;
+}
+
+.footer-right p {
+      width: 27rem;
+}
+
+.newsletter-form {
+      display: flex;
+      gap: 2rem;
+}
+
+.newsletter-form input {
+      width: 20rem;
+      padding: 1rem;
+      border: none;
+      border-radius: var(--radius);
+}
+
+.newsletter-form button {
+      background: var(--pink);
+      padding: 1rem 2rem;
+      border-radius: var(--radius);
+      color: #ffffff;
+      font-weight: 600;
 }
