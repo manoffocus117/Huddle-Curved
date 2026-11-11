@@ -384,3 +384,12 @@ footer::before {
       color: #ffffff;
       font-weight: 600;
 }
+
+.attribution {
+      text-align: center;
+      padding: 2rem 0;
+}
+
+.attribution a {
+      text-decoration: underline;
+}
