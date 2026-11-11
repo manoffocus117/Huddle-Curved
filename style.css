@@ -247,3 +247,34 @@ main {
 .content-section-two {
       padding: 6.25rem 0;
 }
+
+.content-section-three {
+      background: rgb(246, 251, 255);
+      padding: 6.25rem 0;
+      margin: 18rem 0;
+      position: relative;
+}
+
+.content-section-three::before {
+      content: "";
+      position: absolute;
+      top: -150px; /* hides any hairline gap */
+      left: 0;
+      width: 100%;
+      height: 165px;
+      background: url("/images/bg-section-top-desktop-2.svg") no-repeat top
+            center;
+      background-size: 100% 100%;
+}
+
+.content-section-three::after {
+      content: "";
+      position: absolute;
+      bottom: -150px; /* hides any hairline gap */
+      left: 0;
+      width: 100%;
+      height: 165px;
+      background: url("/images/bg-section-bottom-desktop-2.svg") no-repeat top
+            center;
+      background-size: 100% 100%;
+}
