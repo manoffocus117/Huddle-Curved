@@ -114,3 +114,53 @@ nav {
       border-radius: var(--full-radius);
       font-weight: 500;
 }
+
+main {
+      width: 1280px;
+      margin: 6.25rem auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6rem;
+}
+
+.hero-text {
+      width: 1080px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+}
+
+.hero-text h1 {
+      font-size: 3rem;
+}
+
+.hero-text p {
+      width: 600px;
+      margin: auto;
+      font-size: 1.25rem;
+      text-align: center;
+      margin-top: -1rem;
+}
+
+.hero-button {
+      background: var(--pink);
+      padding: 1.25rem 4rem;
+      border-radius: var(--full-radius);
+      font-size: 1rem;
+      color: #fff;
+      font-weight: 700;
+}
+
+.hero-image {
+      width: 1080px;
+      margin: auto;
+}
+
+.hero-image img {
+      object-fit: cover;
+}
