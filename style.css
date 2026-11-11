@@ -251,7 +251,7 @@ main {
 .content-section-three {
       background: rgb(246, 251, 255);
       padding: 6.25rem 0;
-      margin: 18rem 0;
+      margin: 18rem 0 0 0;
       position: relative;
 }
 
@@ -277,4 +277,22 @@ main {
       background: url("/images/bg-section-bottom-desktop-2.svg") no-repeat top
             center;
       background-size: 100% 100%;
+}
+
+.community-section {
+      width: 90rem;
+      height: 80vh;
+      margin: auto;
+      padding: 6.25rem 0 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.community-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
 }
