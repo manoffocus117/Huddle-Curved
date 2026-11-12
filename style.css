@@ -30,7 +30,6 @@ html {
 }
 
 body {
-      /* width: 90rem; */
       height: 100%;
       margin: auto;
       overflow-x: hidden;
@@ -119,7 +118,7 @@ nav {
 }
 
 main {
-      width: 1280px;
+      width: 80rem;
       margin: 6.25rem auto;
       display: flex;
       flex-direction: column;
@@ -129,7 +128,7 @@ main {
 }
 
 .hero-text {
-      width: 1080px;
+      width: 67.5rem;
       margin: auto;
       display: flex;
       flex-direction: column;
@@ -143,7 +142,7 @@ main {
 }
 
 .hero-text p {
-      width: 600px;
+      width: 37.5rem;
       margin: auto;
       font-size: 1.25rem;
       text-align: center;
@@ -160,7 +159,7 @@ main {
 }
 
 .hero-image {
-      width: 1080px;
+      width: 67.5rem;
       margin: auto;
 }
 
@@ -392,4 +391,27 @@ footer::before {
 
 .attribution a {
       text-decoration: underline;
+}
+
+@media screen and (max-width: 25rem) {
+      nav {
+            width: 24rem;
+      }
+
+      main {
+            width: 24rem;
+      }
+
+      .hero-text {
+            width: 24rem;
+            text-align: center;
+      }
+
+      .hero-text p {
+            width: 24rem;
+      }
+
+      .hero-image {
+            width: 24rem;
+      }
 }
