@@ -394,12 +394,21 @@ footer::before {
 }
 
 @media screen and (max-width: 25rem) {
+      body {
+            margin: auto;
+      }
+
       nav {
             width: 24rem;
       }
 
       main {
             width: 24rem;
+            margin: auto;
+      }
+
+      section {
+            margin: auto;
       }
 
       .hero-text {
@@ -441,6 +450,12 @@ footer::before {
 
       .content-section-text {
             width: 24rem;
+            margin: auto;
+      }
+
+      .content-section-image {
+            width: 24rem;
+            margin: auto;
       }
 
       .content-section-three::before {
@@ -455,5 +470,34 @@ footer::before {
             background: url("/images/bg-section-bottom-mobile-2.svg") no-repeat
                   top center;
             background-size: 100% 100%;
+      }
+
+      .community-section {
+            width: 24rem;
+            text-align: center;
+      }
+
+      footer::before {
+            top: -120px; /* hides any hairline gap */
+            background: url("/images/bg-footer-top-mobile.svg") no-repeat top
+                  center;
+            background-size: 100% 100%;
+      }
+
+      .footer-content {
+            width: 24rem;
+            flex-direction: column;
+            gap: 3rem;
+      }
+
+      .footer-right p {
+            width: 24rem;
+      }
+
+      .newsletter-form {
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
       }
 }
