@@ -399,11 +399,12 @@ footer::before {
       }
 
       nav {
-            width: 24rem;
+            width: 22.4375rem;
+            margin: auto;
       }
 
       main {
-            width: 24rem;
+            width: 23.4375rem;
             margin: auto;
       }
 
@@ -412,20 +413,20 @@ footer::before {
       }
 
       .hero-text {
-            width: 24rem;
+            width: 23.4375rem;
             text-align: center;
       }
 
       .hero-text p {
-            width: 24rem;
+            width: 22.4375rem;
       }
 
       .hero-image {
-            width: 24rem;
+            width: 20rem;
       }
 
       .stats {
-            width: 24rem;
+            width: 23.4375rem;
             flex-direction: column;
             gap: 3rem;
       }
@@ -444,18 +445,28 @@ footer::before {
       }
 
       .content {
-            width: 24rem;
+            width: 23.4375rem;
             grid-template-columns: 100%;
       }
 
       .content-section-text {
-            width: 24rem;
+            width: 23.4375rem;
+            padding: 0 1rem;
             margin: auto;
       }
 
+      .content-section-text p {
+            width: 20rem;
+      }
+
       .content-section-image {
-            width: 24rem;
+            width: 20.4375rem;
             margin: auto;
+      }
+
+      .content-section-image img {
+            width: 100%;
+            object-fit: cover;
       }
 
       .content-section-three::before {
@@ -473,7 +484,7 @@ footer::before {
       }
 
       .community-section {
-            width: 24rem;
+            width: 23.4375rem;
             text-align: center;
       }
 
@@ -485,19 +496,40 @@ footer::before {
       }
 
       .footer-content {
-            width: 24rem;
+            width: 22.4375rem;
             flex-direction: column;
             gap: 3rem;
       }
 
+      .footer-left {
+            width: 23.4375rem;
+            padding: 0 1rem;
+      }
+
+      .footer-left p {
+            width: 20rem;
+      }
+
+      .footer-right {
+            width: 23.4375rem;
+            padding: 0 1rem;
+      }
+
       .footer-right p {
-            width: 24rem;
+            width: 20rem;
       }
 
       .newsletter-form {
             flex-direction: column;
             gap: 2rem;
-            align-items: center;
-            justify-content: center;
+      }
+
+      .newsletter-form button {
+            width: 20rem;
+      }
+
+      .attribution {
+            width: 20rem;
+            margin: auto;
       }
 }
