@@ -396,6 +396,11 @@ footer::before {
       background: var(--light-pink);
 }
 
+#message {
+      color: red;
+      margin-top: -20px;
+}
+
 .attribution {
       text-align: center;
       padding: 2rem 0;
