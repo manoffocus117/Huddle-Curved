@@ -33,7 +33,7 @@
                         >
                   </div>
                   <div class="nav-button">
-                        <button>Try it free</button>
+                        <button type="button">Try it free</button>
                   </div>
             </nav>
             <main>
@@ -45,7 +45,7 @@
                               Create connections with your users as you engage
                               in genuine discussion.
                         </p>
-                        <button class="hero-button">
+                        <button class="hero-button" type="button">
                               Get Started For Free
                         </button>
                   </div>
@@ -130,7 +130,7 @@
             <section class="community-section">
                   <div class="community-content">
                         <h1>Ready To Build Your Community?</h1>
-                        <button class="hero-button">
+                        <button class="hero-button" type="button">
                               Get Started For Free
                         </button>
                   </div>
@@ -181,10 +181,19 @@
                                     We’ll never send you spam or pass on your
                                     email address
                               </p>
-                              <div class="newsletter-form">
-                                    <input type="text" placeholder="Email" />
-                                    <button>Subscribe</button>
-                              </div>
+                              <form class="newsletter-form">
+                                    <input
+                                          type="text"
+                                          placeholder="Email"
+                                          required
+                                          name="email"
+                                          id="email"
+                                          autocomplete="email"
+                                    />
+                                    <button type="submit" id="submit">
+                                          Subscribe
+                                    </button>
+                              </form>
                         </div>
                   </div>
                   <p class="attribution">
@@ -201,5 +210,8 @@
                         >.
                   </p>
             </footer>
+
+            <!-- script -->
+            <script src="script.js"></script>
       </body>
 </html>
